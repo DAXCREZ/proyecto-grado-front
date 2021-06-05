@@ -69,11 +69,11 @@
     padding: 10px 0;
     border-radius: 5px;
     transition: 0.8s;
-    display: none;
+
 }
 
 .Menu__li:hover .Menu__li-2{
-    display: flex;
+
     transition: 0.8s;
 }
 
