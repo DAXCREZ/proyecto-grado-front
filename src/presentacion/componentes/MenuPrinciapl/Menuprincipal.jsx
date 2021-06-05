@@ -37,9 +37,6 @@ class Menuprincipal extends Component {
                         <a className="Menu__a-CS" href="">Cerrar Sesion</a>
                     </li>
 
-
-
-
                     </ul>
                 </nav>
             </>

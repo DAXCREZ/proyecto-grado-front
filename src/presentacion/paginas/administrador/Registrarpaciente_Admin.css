@@ -1,0 +1,24 @@
+.RegistrarPaciente{
+    display: flex;
+
+    margin: 10px 0;
+}
+.PacienteTarjeta__contenedor{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height:500px;
+    background: #6bc5ef;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.Titulo__Paciente{
+    color: white;
+}
+
+.logo__paciente-img{
+
+}
