@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Menuprincipal from "./presentacion/componentes/MenuPrinciapl/Menuprincipal";
+import RegistrarPacienteAdminPag from "./presentacion/paginas/administrador/Registrarpaciente_Admin";
 
 ReactDOM.render(
   <React.StrictMode>
-    <Menuprincipal/>
+    <RegistrarPacienteAdminPag/>
   </React.StrictMode>,
   document.getElementById('root')
 );

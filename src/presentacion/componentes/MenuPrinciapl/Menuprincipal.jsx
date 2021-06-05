@@ -33,11 +33,12 @@ class Menuprincipal extends Component {
 
                         <li className="Menu__li">
                             <a className="Menu__a" href="">Historial</a>
-                        </li>
+                        </li> <li className="Menu__li">
+                        <a className="Menu__a-CS" href="">Cerrar Sesion</a>
+                    </li>
 
-                        <li className="Menu__li">
-                            <a className="Menu__a-CS" href="">Cerrar Sesion</a>
-                        </li>
+
+
 
                     </ul>
                 </nav>
