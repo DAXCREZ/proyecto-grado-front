@@ -1,6 +1,5 @@
 .RegistrarPaciente{
     display: flex;
-
     margin: 10px 0;
 }
 .PacienteTarjeta__contenedor{
@@ -19,6 +18,7 @@
     color: white;
 }
 
-.logo__paciente-img{
-
+.DatosFormulario{
+    display: flex;
+    flex-direction: column;
 }
