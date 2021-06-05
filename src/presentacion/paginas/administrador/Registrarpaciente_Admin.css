@@ -1,6 +1,10 @@
 .RegistrarPaciente{
     display: flex;
-    margin: 10px 0;
+    justify-content: center;align-items: center;
+    margin: 10px auto;
+}
+.Titulo__Paciente{
+    color: white;
 }
 .PacienteTarjeta__contenedor{
     display: flex;
@@ -14,11 +18,52 @@
     border-radius: 10px;
 }
 
-.Titulo__Paciente{
+.Titulo__form{
+    color: #6bc5ef;
+    text-align: center;
+}
+
+.Menu__datos-ul{
+    display: flex;
+    background: #009bdb;
+    border-radius: 30px;
+    overflow: hidden;
+    box-shadow: 0 0 0 2px black;
+}
+
+.Menu__datos-li{
+    list-style: none;
+    width: 150px;
+}
+
+.Menu__datos-li:active{
+   background: white;
+}
+
+.Menu__datos-a{
+    text-decoration: none;
+    display: block;
+    padding: 20px;
+    text-align: center;
+    transition: 0.5s;
     color: white;
 }
 
-.DatosFormulario{
+.form{
+    background: #009bdb;
+    height: 380px;
+    border-radius: 10px;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
 }
+
+
+
+
+
+
+
+
+

@@ -18,106 +18,53 @@ class RegistrarPacienteAdminPag extends Component {
                         </figure>
                     </div>
 
-                    <div className="FormularioPaciente">
-                        <h1 className="Titulo__form">Datos</h1>
-                        <form action="">
-
-                            <div className="Datos1">
-                                <div className="DatosFormulario">
-                                    <label htmlFor="">Identificacion</label>
-                                    <input type="text"/>
-                                </div>
-
-                                <div className="DatosFormulario">
-                                    <label htmlFor="">Nombres</label>
-                                    <input type="text"/>
-                                </div>
-
-                                <div className="DatosFormulario">
-                                    <label htmlFor="">Apelkidos</label>
-                                    <input type="text"/>
-                                </div>
-
-                                <div className="DatosFormulario">
-                                    <label htmlFor="">Direccion</label>
-                                    <input type="text"/>
-                                </div>
-
-                                <div className="DatosFormulario">
-                                    <label htmlFor="">Fecha de cumpleaños</label>
-                                    <input type="text"/>
-                                </div>
-
-                                <div className="DatosFormulario">
-                                    <label htmlFor="">Barrio</label>
-                                    <input type="text"/>
-                                </div>
+                    <div className="formulario">
+                        <div className="FormularioPaciente__contenedor">
+                            <h1 className="Titulo__form">Datos</h1>
+                            <div className="Menu__datos">
+                                <ul className="Menu__datos-ul">
+                                    <li className="Menu__datos-li active"><a className="Menu__datos-a"  href="#">1. Personales</a></li>
+                                    <li className="Menu__datos-li"><a className="Menu__datos-a" href="">2. Contacto</a></li>
+                                    <li className="Menu__datos-li"><a className="Menu__datos-a" href="">3. Acudiente</a></li>
+                                    <li className="Menu__datos-li"><a className="Menu__datos-a" href="">4. Eps</a></li>
+                                </ul>
                             </div>
 
-                            <div className="Datos2">
-                                <div className="DatosFormulario">
-                                    <label htmlFor="">Telefono</label>
-                                    <input type="text"/>
+                            <form className="form" action="">
+                                <div className="form__personales">
+
+                                    <div className="grupo__form">
+                                        <input type="number"/> <span className="barra"></span>
+                                        <label htmlFor="">Identificacion</label>
+                                    </div>
+
+                                    <div className="grupo__form">
+                                        <input type="text"/> <span className="barra"></span>
+                                        <label htmlFor="">Nombres</label>
+                                    </div>
+
+                                    <div className="grupo__form">
+                                        <input type="text"/> <span className="barra"></span>
+                                        <label htmlFor="">Apellidos</label>
+                                    </div>
+
+                                    <div className="grupo__form">
+                                        <input type="text"/> <span className="barra"></span>
+                                        <label htmlFor="">Direccion</label>
+                                    </div>
+
+                                    <div className="grupo__form">
+                                        <input type="date"/> <span className="barra"></span>
+                                        <label htmlFor="">Fecha de cumpleaños</label>
+                                    </div>
+
                                 </div>
 
-                                <div className="DatosFormulario">
-                                    <label htmlFor="">Celular</label>
-                                    <input type="text"/>
-                                </div>
+                            </form>
 
-                                <div className="DatosFormulario">
-                                    <label htmlFor="">Correo</label>
-                                    <input type="text"/>
-                                </div>
-
-                                <div className="DatosFormulario">
-                                    <label htmlFor="">Acudiente</label>
-                                    <input type="text"/>
-                                </div>
-
-                                <div className="DatosFormulario">
-                                    <label htmlFor="">Relacion</label>
-                                    <input type="text"/>
-                                </div>
-
-                                <div className="DatosFormulario">
-                                    <label htmlFor="">Celular del acudiente</label>
-                                    <input type="text"/>
-                                </div>
-                            </div>
-
-                            <div className="Datos3">
-                                <div className="DatosFormulario">
-                                    <label htmlFor="">Direccion del acuediente</label>
-                                    <input type="text"/>
-                                </div>
-
-                                <div className="DatosFormulario">
-                                    <label htmlFor="">Convenio</label>
-                                    <input type="text"/>
-                                </div>
-
-                                <div className="DatosFormulario">
-                                    <label htmlFor="">Número de licencia</label>
-                                    <input type="text"/>
-                                </div>
-
-                                <div className="DatosFormulario">
-                                    <label htmlFor="">EPS</label>
-                                    <input type="text"/>
-                                </div>
-
-                                <div className="DatosFormulario">
-                                    <label htmlFor="">Tipo de usuario</label>
-                                    <input type="text"/>
-                                </div>
-
-                                <button>Guardar</button>
-                            </div>
-
-                        </form>
-
+                        </div>
                     </div>
+
                 </div>
             </>
         );
