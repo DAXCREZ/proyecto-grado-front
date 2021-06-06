@@ -1,7 +1,13 @@
+.Titulo__Registro{
+    text-align: center;
+    margin-top: 10px;
+    color: #009bdb;
+}
+
 .RegistrarPaciente{
     display: flex;
-    justify-content: center;align-items: center;
-    margin: 10px auto;
+    justify-content: center;
+    margin: 10px 0 auto;
 }
 .Titulo__Paciente{
     color: white;
@@ -14,9 +20,15 @@
     width: 300px;
     height:500px;
     background: #6bc5ef;
-    margin: 20px;
+    margin-right: 20px;
     border-radius: 10px;
 }
+
+.formulario{
+    margin: 0;
+    height: 500px;
+}
+
 
 .Titulo__form{
     color: #6bc5ef;
@@ -26,9 +38,10 @@
 .Menu__datos-ul{
     display: flex;
     background: #009bdb;
-    border-radius: 30px;
+    border-radius: 10px;
     overflow: hidden;
-    box-shadow: 0 0 0 2px black;
+    width: 600px;
+    justify-content: center;
 }
 
 .Menu__datos-li{
@@ -51,12 +64,13 @@
 
 .form{
     background: #009bdb;
-    height: 380px;
+    height: 416px;
+    width: 600px;
     border-radius: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 20px;
+    margin: 20px 0;
 }
 
 
