@@ -37,11 +37,12 @@
 
 .Menu__datos-ul{
     display: flex;
-    background: #009bdb;
+
     border-radius: 10px;
     overflow: hidden;
     width: 600px;
     justify-content: center;
+    border: 2px solid #6bc5ef;
 }
 
 .Menu__datos-li{
@@ -50,7 +51,11 @@
 }
 
 .Menu__datos-li:active{
-   background: white;
+    background: #6bc5ef;
+}
+
+.Menu__datos-li:active .Menu__datos-a{
+    color: white;
 }
 
 .Menu__datos-a{
@@ -59,11 +64,11 @@
     padding: 20px;
     text-align: center;
     transition: 0.5s;
-    color: white;
+    color: #6bc5ef;
 }
 
 .form{
-    background: #009bdb;
+    background: white;
     height: 416px;
     width: 600px;
     border-radius: 10px;
@@ -71,7 +76,55 @@
     justify-content: center;
     align-items: center;
     margin: 20px 0;
+    border: 2px solid #6bc5ef;
 }
+
+.grupo__form{
+    position: relative;
+    margin: 30px;
+}
+
+.grupo__form .paciente__input{
+    background: none;
+    font-size: 15px;
+    padding:8px 10px;
+    display: block ;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #009bdb;
+}
+
+.paciente__input:focus{
+    outline: none;
+}
+
+.paciente__label{
+    color: #009bdb;
+    font-size: 16px;
+    position: absolute;
+    bottom: 0;
+    left: 5px;
+    top: 10px;
+    transition: 0.5s ease-in-out all;
+    pointer-events: none;
+}
+
+.paciente__input:focus~.paciente__label,
+.paciente__input:valid~.paciente__label{
+    top: -14px;
+    font-size: 12px;
+}
+
+.barra{
+    position: relative;
+    display: block;
+    width: 100%;
+}
+
+
+
+
+
 
 
 

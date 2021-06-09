@@ -26,42 +26,41 @@ class RegistrarPacienteAdminPag extends Component {
                                 <div className="Menu__datos">
                                     <ul className="Menu__datos-ul">
                                         <li className="Menu__datos-li active"><a className="Menu__datos-a"  href="#">1. Personales</a></li>
-                                        <li className="Menu__datos-li"><a className="Menu__datos-a" href="">2. Contacto</a></li>
-                                        <li className="Menu__datos-li"><a className="Menu__datos-a" href="">3. Acudiente</a></li>
-                                        <li className="Menu__datos-li"><a className="Menu__datos-a" href="">4. Eps</a></li>
+                                        <li className="Menu__datos-li"><a className="Menu__datos-a" href="#">2. Contacto</a></li>
+                                        <li className="Menu__datos-li"><a className="Menu__datos-a" href="#">3. Acudiente</a></li>
+                                        <li className="Menu__datos-li"><a className="Menu__datos-a" href="#">4. Eps</a></li>
                                     </ul>
                                 </div>
 
                                 <form className="form" action="">
                                     <div className="form__personales">
-
                                         <div className="grupo__form">
-                                            <input type="number"/> <span className="barra"></span>
-                                            <label htmlFor="">Identificacion</label>
+                                            <input className="paciente__input" type="number" required/> <span className="barra"></span>
+                                            <label className="paciente__label" htmlFor="">Identificacion</label>
                                         </div>
 
                                         <div className="grupo__form">
-                                            <input type="text"/> <span className="barra"></span>
-                                            <label htmlFor="">Nombres</label>
+                                            <input className="paciente__input" type="text" required/> <span className="barra"></span>
+                                            <label className="paciente__label" htmlFor="">Nombres</label>
                                         </div>
 
                                         <div className="grupo__form">
-                                            <input type="text"/> <span className="barra"></span>
-                                            <label htmlFor="">Apellidos</label>
+                                            <input className="paciente__input" type="text" required/> <span className="barra"></span>
+                                            <label className="paciente__label" htmlFor="">Apellidos</label>
                                         </div>
 
                                         <div className="grupo__form">
-                                            <input type="text"/> <span className="barra"></span>
-                                            <label htmlFor="">Direccion</label>
+                                            <input className="paciente__input" type="text" required/> <span className="barra"></span>
+                                            <label className="paciente__label" htmlFor="">Direccion</label>
                                         </div>
 
                                         <div className="grupo__form">
-                                            <input type="date"/> <span className="barra"></span>
-                                            <label htmlFor="">Fecha de cumpleaños</label>
+                                            <input className="paciente__input" type="text" required/> <span className="barra"></span>
+                                            <label className="paciente__label" htmlFor="">Fecha de cumpleaños</label>
                                         </div>
-
                                     </div>
 
+                                    <button className="">Siguiente</button>
                                 </form>
 
                             </div>
