@@ -34,33 +34,38 @@ class RegistrarPacienteAdminPag extends Component {
 
                                 <form className="form" action="">
                                     <div className="form__personales">
-                                        <div className="grupo__form">
+                                        <div className="paciente__grupo__form">
                                             <input className="paciente__input" type="number" required/> <span className="barra"></span>
                                             <label className="paciente__label" htmlFor="">Identificacion</label>
                                         </div>
 
-                                        <div className="grupo__form">
+                                        <div className="paciente__grupo__form">
                                             <input className="paciente__input" type="text" required/> <span className="barra"></span>
                                             <label className="paciente__label" htmlFor="">Nombres</label>
                                         </div>
 
-                                        <div className="grupo__form">
+                                        <div className="paciente__grupo__form">
                                             <input className="paciente__input" type="text" required/> <span className="barra"></span>
                                             <label className="paciente__label" htmlFor="">Apellidos</label>
                                         </div>
 
-                                        <div className="grupo__form">
+                                        <div className="paciente__grupo__form">
                                             <input className="paciente__input" type="text" required/> <span className="barra"></span>
                                             <label className="paciente__label" htmlFor="">Direccion</label>
                                         </div>
 
-                                        <div className="grupo__form">
+                                        <div className="paciente__grupo__form">
                                             <input className="paciente__input" type="text" required/> <span className="barra"></span>
                                             <label className="paciente__label" htmlFor="">Fecha de cumpleaños</label>
                                         </div>
                                     </div>
 
-                                    <button className="">Siguiente</button>
+                                    <div className="paciente__siguiente__icono">
+                                        <a className="paciente__siguiente__a">
+                                            <i className="fas fa-chevron-right"></i>
+                                        </a>
+                                    </div>
+
                                 </form>
 
                             </div>

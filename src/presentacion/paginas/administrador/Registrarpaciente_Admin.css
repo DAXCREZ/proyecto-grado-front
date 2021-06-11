@@ -75,16 +75,16 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 20px 0;
+    margin: 15px 0;
     border: 2px solid #6bc5ef;
 }
 
-.grupo__form{
+.paciente__grupo__form{
     position: relative;
     margin: 30px;
 }
 
-.grupo__form .paciente__input{
+.paciente__grupo__form .paciente__input{
     background: none;
     font-size: 15px;
     padding:8px 10px;
@@ -121,7 +121,32 @@
     width: 100%;
 }
 
+.paciente__siguiente__icono{
+    border: 2px solid #009bdb;
+    margin-left: 30px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
+}
+
+.paciente__siguiente__a .fa-chevron-right{
+    font-size: 30px;
+    text-align: center;
+    color: black;
+}
+
+.paciente__siguiente__a:active .paciente__siguiente__icono{
+    background: #009bdb;
+}
+
+
+/*.paciente__siguiente__icono .paciente__siguiente__a:active .fa-chevron-right{
+    color: white;
+}*/
 
 
 
