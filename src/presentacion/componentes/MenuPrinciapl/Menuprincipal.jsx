@@ -1,10 +1,10 @@
-import React, {Component} from 'react';
+import React from 'react';
 import logo from "../../../assets/logo-base.jpg"
 import "./Menuprincipal.css"
 
 
-class Menuprincipal extends Component {
-    render() {
+function Menuprincipal() {
+
         return (
             <>
                 <nav className="Menu">
@@ -41,7 +41,6 @@ class Menuprincipal extends Component {
                 </nav>
             </>
         );
-    }
 }
 
 

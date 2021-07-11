@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import RegistrarPacienteAdminPag from "./presentacion/paginas/administrador/Registrarpaciente_Admin";
+import RegistrarPacienteAdminPag from "./presentacion/componentes/administrador/Registrarpaciente_Admin";
 
 ReactDOM.render(
   <React.StrictMode>
