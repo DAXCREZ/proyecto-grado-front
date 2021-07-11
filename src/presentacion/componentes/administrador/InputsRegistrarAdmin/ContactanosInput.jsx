@@ -21,7 +21,7 @@ function ContactanosInput(){
                 </div>
 
                 <div className="paciente__grupo__form">
-                    <input className="paciente_input" type="text" required/> <span className="barra"></span>
+                    <input className="paciente__input" type="text" required/> <span className="barra"></span>
                     <label className="paciente__label" htmlFor="">Correo</label>
                 </div>
             </div>

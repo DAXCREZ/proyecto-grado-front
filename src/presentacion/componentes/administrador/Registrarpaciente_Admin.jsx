@@ -14,6 +14,8 @@ function RegistrarPacienteAdminPag () {
     const [coloMenu2, setColorMenu2] = useState("Menu__datos-li");
     const [coloMenu3, setColorMenu3] = useState("Menu__datos-li");
     const [coloMenu4, setColorMenu4] = useState("Menu__datos-li");
+    const [botonRegistrar, setBotonRegistrar] = useState("BotonRegistrarPaciente");
+
 
     function RenderizarInformacion (id){
         if (id === 1){
@@ -22,24 +24,28 @@ function RegistrarPacienteAdminPag () {
             setColorMenu2("Menu__datos-li")
             setColorMenu3("Menu__datos-li")
             setColorMenu4("Menu__datos-li")
+            setBotonRegistrar("BotonRegistrarPaciente")
         }else if(id === 2){
             setMostrarInfo(<ContactanosInput/>)
             setColorMenu1("Menu__datos-li")
             setColorMenu2("Menu__datos-liActivo")
             setColorMenu3("Menu__datos-li")
             setColorMenu4("Menu__datos-li")
+            setBotonRegistrar("BotonRegistrarPaciente")
         }else if(id === 3){
             setMostrarInfo(<AcudienteInput/>)
             setColorMenu1("Menu__datos-li")
             setColorMenu2("Menu__datos-li")
             setColorMenu3("Menu__datos-liActivo")
             setColorMenu4("Menu__datos-li")
+            setBotonRegistrar("BotonRegistrarPaciente")
         }else if(id === 4){
             setMostrarInfo(<EpsInput/>)
-            setColorMenu3("Menu__datos-li")
-            setColorMenu3("Menu__datos-li")
+            setColorMenu1("Menu__datos-li")
+            setColorMenu2("Menu__datos-li")
             setColorMenu3("Menu__datos-li")
             setColorMenu4("Menu__datos-liActivo")
+            setBotonRegistrar("BotonRegistrarPacienteActivo")
         }
     }
 
@@ -75,11 +81,7 @@ function RegistrarPacienteAdminPag () {
                                         }
                                     </div>
 
-                                    <button className="paciente__siguiente__icono">
-                                        <a className="paciente__siguiente__a">
-                                            <i className="fas fa-chevron-right"></i>
-                                        </a>
-                                    </button>
+                                    <button className={botonRegistrar}> Registrar </button>
 
                                 </form>
 

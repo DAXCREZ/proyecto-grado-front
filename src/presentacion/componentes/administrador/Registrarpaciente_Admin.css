@@ -79,6 +79,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     margin: 15px 0;
     border: 2px solid #6bc5ef;
 }
@@ -154,10 +155,22 @@
     color: white;
 }*/
 
+.BotonRegistrarPacienteActivo{
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    padding: 1vw 2vw;
+    border-radius: 1.5vw;
+    border: none;
+    background: #6bc5ef;
+    color: #fff;
+    font-weight: 400;
+    text-transform: uppercase;
+    cursor: pointer;
+}
 
-
-
-
+.BotonRegistrarPaciente{
+    display: none;
+}
 
 
 
