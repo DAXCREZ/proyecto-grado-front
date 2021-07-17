@@ -73,10 +73,9 @@
 
 .form{
     background: white;
-    height: 416px;
-    width: 600px;
     border-radius: 10px;
     display: flex;
+    height: 31vw;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -86,7 +85,7 @@
 
 .paciente__grupo__form{
     position: relative;
-    margin: 30px;
+    margin: 1.5vw;
 }
 
 .paciente__grupo__form .paciente__input{
@@ -172,7 +171,41 @@
     display: none;
 }
 
+.personales{
+    display: flex;
+    flex-direction: column;
+}
 
+.personalesOff{
+    display: none;
+}
+
+.contacto{
+    display: flex;
+    flex-direction: column;
+}
+
+.contactoOff{
+    display: none;
+}
+
+.acudiente{
+    display: flex;
+    flex-direction: column;
+}
+
+.acudienteOff{
+    display: none;
+}
+
+.eps{
+    display: flex;
+    flex-direction: column;
+}
+
+.epsOff{
+    display: none;
+}
 
 
 
